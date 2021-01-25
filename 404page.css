@@ -1,0 +1,60 @@
+            h1 {
+                text-align: center;
+                font-style: italic;
+                font-size: 50px;
+            }
+            
+            span.parspan {
+                float: right;
+                margin-right: 10%;
+                font-size: 20px;
+                font-style: italic;
+            }
+            
+            span.imgspan {
+                margin-left: 10%;
+            }
+            
+            button {
+                background-color: #0591a3e1;
+                /* Green */
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin-top: 10%;
+            }
+            
+            li {
+                list-style: none;
+            }
+            
+            body {
+                background-color: rgb(214, 246, 239);
+            }
+            /* Media Queries: Tablet Landscape */
+            
+            @media screen and (max-width: 1060px) {
+                #primary {
+                    width: 67%;
+                }
+                #secondary {
+                    width: 30%;
+                    margin-left: 3%;
+                }
+            }
+            /* Media Queries: Tabled Portrait */
+            
+            @media screen and (max-width: 768px) {
+                #primary {
+                    width: 100%;
+                }
+                #secondary {
+                    width: 100%;
+                    margin: 0;
+                    border: none;
+                }
+            }
